@@ -16,7 +16,7 @@
         "spatie/phpunit-watcher": "^1.21"
     },
     "autoload": {
-        "classmap": [],
+        "classmap": ["src/app/"],
         "psr-4": {
             "VCComponent\\Laravel\\ViewModel\\": "src/app/"
         }
